@@ -4,7 +4,7 @@ import numpy as np
 from multiprocessing import Pool, cpu_count
 
 
-pinecone_api_key = "2c454cf0-199d-40a4-975d-decddf24c5d6" # SET YOUR PINECONE API KEY HERE
+pinecone_api_key = "" # SET YOUR PINECONE API KEY HERE
 pinecone.init(api_key=pinecone_api_key, environment="us-east1-gcp")
 
 # Define the name of the index and the dimensionality of the embeddings
